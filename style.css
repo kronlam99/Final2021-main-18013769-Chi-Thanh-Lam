@@ -1,0 +1,173 @@
+h1, h2, h3, nav li {
+  font-family: 'Kiwi Maru', serif;
+
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h5.text-uppercase {
+  color: #fa8c17;
+}
+
+ul.rating {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+}
+
+.bg-dark {
+  background-color: #2e2d2d !important;
+}
+
+.col-md-6 {
+  text-align: right;
+}
+
+img.card-img-top {
+  height: 170px !important;
+  object-fit: contain;
+  object-position: revert;
+}
+
+.container {
+  max-width: 1450px;
+}
+
+.card {
+  height: 436px;
+}
+
+.col-md-3 {
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.navbar.navbar-expand-sm.bg-dark.navbar-dark {
+  position: fixed;
+  width: 100%;
+  z-index: 999999999;
+  height: 10%;
+}
+
+/*---------------------------- preloader area ----------------------------*/
+
+.loader_bg {
+  position: static;
+  z-index: 99999999;
+  background: #fff;
+  width: 100%;
+  height: 100%;
+}
+
+.loader {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader img {
+  width: 280px;
+}
+
+/** banner section **/
+
+.banner_main::before {
+  position: absolute;
+  content: "";
+  background-color: #2e2d2d;
+  width: 370px;
+  height: 764px;
+  left: 0;
+}
+
+.banner1 {
+  position: relative;
+  padding: 50px 0 100px 0;
+}
+
+.relative {
+  position: inherit;
+  padding: 0;
+  text-align: left;
+}
+
+.relative span {
+  color: #ddd;
+}
+
+.relative h1 {
+  font-size: 74px;
+  line-height: 80px;
+  font-weight: 500;
+  color: #2e2d2d;
+}
+
+.relative p {
+  color: #2e2d2d;
+  padding-bottom: 70px;
+}
+
+.get_btn {
+  background-color: #2e2d2d;
+  color: #fff;
+  text-align: center;
+  max-width: 216px;
+  width: 100%;
+  height: 40px;
+  font-size: 17px;
+  display: block;
+  padding: 4px 0;
+}
+
+.get_btn:hover {
+  color: #fa8c17;
+}
+
+.bann_img {
+  padding-left: 59px;
+  padding-right: 20px;
+}
+
+#myCarousel .carousel-control-prev, #myCarousel .carousel-control-next {
+  width: 55px;
+  height: 55px;
+  background: #2e2d2d;
+  opacity: 1;
+  font-size: 20px;
+  color: #ffffff;
+  top: 90%;
+}
+
+#myCarousel .carousel-control-prev:hover, #myCarousel .carousel-control-next:hover, #myCarousel .carousel-control-prev:focus, #myCarousel .carousel-control-next:focus {
+  background: #ececec;
+  color: #2e2d2d;
+}
+
+#myCarousel .carousel-control-prev {
+  left: inherit;
+  right: 100px;
+}
+
+#myCarousel .carousel-control-next {
+  right: 30px;
+}
+
+.banner .carousel-indicators li {
+  width: 20px;
+  height: 20px;
+  border-radius: 30px;
+  background: #000;
+}
+
+.carousel-indicators {
+  display: none;
+}
+
+/** end banner section **/
